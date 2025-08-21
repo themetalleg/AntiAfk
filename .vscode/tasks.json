@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Compile",
+			"type": "shell",
+			"command": "C:/Users/RobertKalb/Python/AntiAfk/.venv/Scripts/python.exe -m nuitka --onefile --output-filename=AntiAFK.exe --windows-console-mode=disable --windows-icon-from-ico=icon.png --include-package=pygetwindow --include-package=pywinauto --include-package=pystray --include-package=PIL --include-package=comtypes anti_afk.py",
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}

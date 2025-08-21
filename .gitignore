@@ -205,3 +205,6 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+/anti_afk.build
+/anti_afk.dist
+/anti_afk.onefile-build
